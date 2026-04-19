@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftHaul Logistics - Reliable Delivery Solutions in Lagos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="4" y="10" width="24" height="14" rx="2" fill="#FF6B35" stroke="#003D7A" stroke-width="1.5"/>
+                            <circle cx="8" cy="26" r="2.5" fill="#003D7A"/>
+                            <circle cx="24" cy="26" r="2.5" fill="#003D7A"/>
+                            <path d="M6 10V8C6 6.89543 6.89543 6 8 6H24C25.1046 6 26 6.89543 26 8V10" stroke="#003D7A" stroke-width="1.5" fill="none"/>
+                        </svg>
+                        <span>SwiftHaul</span>
+                    </div>
+                    
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Fast, Reliable Logistics Solutions for Lagos</h1>
+                <p class="hero-description">
+                    SwiftHaul Logistics delivers your goods on time, every time. 
+                    From same-day delivery to warehousing, we've got you covered.
+                </p>
+                <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Get a Quote
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3>500+</h3>
+                    <p>Deliveries Daily</p>
+                </div>
+                <div class="stat-card">
+                    <h3>50+</h3>
+                    <p>Vehicles Fleet</p>
+                </div>
+                <div class="stat-card">
+                    <h3>99.2%</h3>
+                    <p>On-Time Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive logistics solutions tailored to your needs</p>
+            
+            <div class="services-grid">
+                <!-- Service 1: Delivery -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M8 18H40V32C40 33.1046 39.1046 34 38 34H10C8.89543 34 8 33.1046 8 32V18Z" stroke="#FF6B35" stroke-width="2" fill="none"/>
+                            <path d="M14 18V14C14 12.8954 14.8954 12 16 12H28C29.1046 12 30 12.8954 30 14V18" stroke="#FF6B35" stroke-width="2" fill="none"/>
+                            <circle cx="14" cy="38" r="3" fill="#FF6B35"/>
+                            <circle cx="34" cy="38" r="3" fill="#FF6B35"/>
+                        </svg>
+                    </div>
+                    <h3>Express Delivery</h3>
+                    <p>Same-day and next-day delivery services across Lagos and surrounding areas. Real-time tracking available.</p>
+                    <ul class="service-features">
+                        <li>✓ Same-day delivery</li>
+                        <li>✓ Real-time tracking</li>
+                        <li>✓ Insured shipments</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2: Warehousing -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="6" y="10" width="36" height="28" rx="2" stroke="#FF6B35" stroke-width="2" fill="none"/>
+                            <line x1="6" y1="18" x2="42" y2="18" stroke="#FF6B35" stroke-width="2"/>
+                            <line x1="6" y1="26" x2="42" y2="26" stroke="#FF6B35" stroke-width="2"/>
+                            <rect x="12" y="14" width="6" height="4" fill="#FF6B35"/>
+                            <rect x="30" y="14" width="6" height="4" fill="#FF6B35"/>
+                        </svg>
+                    </div>
+                    <h3>Warehousing</h3>
+                    <p>Secure storage facilities with climate control and 24/7 monitoring. Perfect for inventory management.</p>
+                    <ul class="service-features">
+                        <li>✓ Climate controlled</li>
+                        <li>✓ 24/7 security</li>
+                        <li>✓ Flexible terms</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3: Bulk Shipping -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M8 24H40M8 24L12 18M8 24L12 30M40 24L36 18M40 24L36 30" stroke="#FF6B35" stroke-width="2" stroke-linecap="round"/>
+                            <rect x="14" y="10" width="20" height="8" rx="1" stroke="#FF6B35" stroke-width="2" fill="none"/>
+                            <rect x="14" y="30" width="20" height="8" rx="1" stroke="#FF6B35" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3>Bulk Shipping</h3>
+                    <p>Cost-effective solutions for large shipments. Consolidation services available for better rates.</p>
+                    <ul class="service-features">
+                        <li>✓ Consolidated shipping</li>
+                        <li>✓ Competitive rates</li>
+                        <li>✓ Flexible scheduling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About SwiftHaul Logistics</h2>
+                    <p class="about-description">
+                        Founded in 2015, SwiftHaul Logistics has become Lagos's most trusted logistics partner. 
+                        We combine modern technology with dedicated customer service to ensure your goods arrive safely and on time.
+                    </p>
+                    
+                    <div class="about-values">
+                        <div class="value-item">
+                            <h4>🎯 Our Mission</h4>
+                            <p>To provide fast, reliable, and affordable logistics solutions that empower businesses across Nigeria.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>🚀 Our Vision</h4>
+                            <p>To be the leading logistics provider in West Africa, recognized for innovation and excellence.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <h3>8+</h3>
+                            <p>Years in business</p>
+                        </div>
+                        <div class="about-stat">
+                            <h3>1000+</h3>
+                            <p>Happy clients</p>
+                        </div>
+                        <div class="about-stat">
+                            <h3>50k+</h3>
+                            <p>Deliveries completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none">
+                            <rect width="400" height="300" fill="#f0f4f8"/>
+                            <circle cx="100" cy="80" r="35" fill="#FF6B35" opacity="0.1"/>
+                            <rect x="150" y="100" width="150" height="120" rx="8" fill="#FF6B35" opacity="0.08"/>
+                            <path d="M50 200 Q100 180 150 200 T250 200" stroke="#FF6B35" stroke-width="2" opacity="0.2" fill="none"/>
+                            <text x="200" y="270" text-anchor="middle" font-size="18" fill="#999">Professional Logistics Team</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Join hundreds of satisfied businesses</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "SwiftHaul transformed our delivery operations. Their reliability and professionalism have been game-changing for our e-commerce business."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Chioma Adeyemi</h4>
+                            <p>CEO, TrendBox Lagos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Outstanding service! They handled our bulk furniture shipment with care and delivered everything on schedule. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Oluwaseun Okafor</h4>
+                            <p>Founder, FurniturePro Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Their warehousing solutions saved us significant storage costs. The 24/7 monitoring gives us complete peace of mind."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Zainab Hassan</h4>
+                            <p>Operations Manager, FastTrade Imports</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Ready to streamline your logistics? Contact us today!</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Address</h3>
+                        <p>123 Trade Fair Complex<br>Lagos, Nigeria 100001</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Phone</h3>
+                        <p>+234 (0) 701 234 5678<br>+234 (0) 802 987 6543</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p>info@swifthaul.com<br>support@swifthaul.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕐 Hours</h3>
+                        <p>Mon - Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Type *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="express">Express Delivery</option>
+                            <option value="warehouse">Warehousing</option>
+                            <option value="bulk">Bulk Shipping</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Inquiry</button>
+                    <p class="form-note">We'll respond within 24 hours.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SwiftHaul Logistics</h4>
+                    <p>Reliable logistics solutions for Lagos and beyond.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook" aria-label="Facebook">f</a>
+                        <a href="#" title="Twitter" aria-label="Twitter">𝕏</a>
+                        <a href="#" title="LinkedIn" aria-label="LinkedIn">in</a>
+                        <a href="#" title="Instagram" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Express Delivery</a></li>
+                        <li><a href="#services">Warehousing</a></li>
+                        <li><a href="#services">Bulk Shipping</a></li>
+                        <li><a href="#services">Custom Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Lagos, Nigeria<br>
+                    📞 +234 701 234 5678<br>
+                    ✉️ info@swifthaul.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 SwiftHaul Logistics. All rights reserved.</p>
+                <p>Built with care for modern logistics.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
