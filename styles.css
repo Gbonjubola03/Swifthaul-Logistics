@@ -242,7 +242,7 @@ body {
 }
 
 .menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -7px);
+    transform: rotate(-45deg) translate(3px, -4px);
 }
 
 /* ============================================
@@ -395,7 +395,7 @@ body {
 }
 
 .service-card:hover .service-icon {
-    background: var(--neutral-light);
+    background: var(--primary-color);
     transform: rotate(5deg) scale(1.05);
 }
 
@@ -822,12 +822,12 @@ body {
 
     .nav-menu {
         position: absolute;
-        top: 70px;
+        top: -700px;
         left: 0;
         right: 0;
         flex-direction: column;
         background: #fff;
-        padding: var(--spacing-lg);
+        padding: 1.5rem 0 0 1.5rem;
         gap: var(--spacing-md);
         box-shadow: var(--shadow-lg);
         max-height: 0;
@@ -836,7 +836,10 @@ body {
     }
 
     .nav-menu.active {
+        top: 70px;
         max-height: 400px;
+        padding: var(--spacing-lg);
+        transition: max-height 0.3s ease-out;
     }
 
     .hero {
