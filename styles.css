@@ -395,7 +395,7 @@ body {
 }
 
 .service-card:hover .service-icon {
-    background: var(--primary-color);
+    background: var(--neutral-light);
     transform: rotate(5deg) scale(1.05);
 }
 
